@@ -1,4 +1,4 @@
-#RapidQuiz Pro
+# RapidQuiz Pro
 
 ## Exercise Overview
 
@@ -35,17 +35,17 @@ Create a program that reads quiz questions from a CSV file, allowing users to an
     Continuous presentation of questions regardless of the correctness of the previous answer
     Output total number of correct and total questions at the end
 
-### Note
+## Note
 
 CSV files may contain questions with commas.
 
 ## Part 2: Timer Integration
 
-### Description
+## Description
 
 Extend the program to include a timer. The default time limit is 30 seconds, but users can customize it via a flag. The quiz should terminate when the time limit is exceeded, even if the user hasn't answered the last question.
 
-### Features
+## Features
 
     Timer functionality with default limit (30 seconds)
     Customizable time limit via a flag
@@ -62,9 +62,9 @@ Extend the program to include a timer. The default time limit is 30 seconds, but
 
 Clone the Repository
 
-````bash
+``bash
 
-git clone https://github.com/your-username/RapidQuiz-Pro.git ```
+git clone https://github.com/your-username/RapidQuiz-Pro.git ``
 
 Run the Program
 
@@ -75,4 +75,4 @@ Example
 
 ./rapidquiz -file=myquiz.csv -time=45
 
-````
+```
