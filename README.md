@@ -30,10 +30,10 @@ Create a program that reads quiz questions from a CSV file, allowing users to an
 
 ## Features
 
-    Default CSV file: problems.csv
-    User-customizable filename via a flag
-    Continuous presentation of questions regardless of the correctness of the previous answer
-    Output total number of correct and total questions at the end
+Default CSV file: problems.csv
+User-customizable filename via a flag
+Continuous presentation of questions regardless of the correctness of the previous answer
+Output total number of correct and total questions at the end
 
 ## Note
 
@@ -47,25 +47,20 @@ Extend the program to include a timer. The default time limit is 30 seconds, but
 
 ## Features
 
-    Timer functionality with default limit (30 seconds)
-    Customizable time limit via a flag
-    Users prompted to start the quiz by pressing enter
-    Questions displayed one at a time until the user answers
-    Output total number of correct and total questions at the end, considering invalid and unanswered questions
+Timer functionality with default limit (30 seconds)
+Customizable time limit via a flag
+Users prompted to start the quiz by pressing enter
+Questions displayed one at a time until the user answers
+Output total number of correct and total questions at the end, considering invalid and unanswered questions
 
 ### Implementation Notes
 
-    Utilize the CSV package in Go for parsing.
-    Encourage exploration of Go's timer functionality.
+Utilize the CSV package in Go for parsing.
+Encourage exploration of Go's timer functionality.
 
 ### Usage
 
 Clone the Repository
-
-``bash
-
-git clone https://github.com/your-username/RapidQuiz-Pro.git ``
-
 Run the Program
 
 Follow the instructions in the exercise details to implement and test the functionality.
